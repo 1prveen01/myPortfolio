@@ -39,7 +39,7 @@ import currencyApp from './assets/projects/currencyapp.png';
 import randomPassApp from  './assets/projects/randomPassgenrator.png'
 import todoApp from './assets/projects/todoapp.png';
 import weatherApp from './assets/projects/weatherapp.png';
-import netflixApp from './assets/projects/netflixclone.png';
+import netflixApp from './assets/projects/netflix.png';
 import mbaChaiWalaApp from './assets/projects/mbaChaiWala.png';
 
 
