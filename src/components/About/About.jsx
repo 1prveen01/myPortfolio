@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="py-4 px-[7vw] md:px-[7vw] lg:px-[15vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
-      <div className="flex flex-col-reverse  md:flex-row justify-between items-center">
+      <div className="flex flex-col-reverse  md:flex-row justify-between items-start">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
           {/* Greeting */}
@@ -61,7 +61,7 @@ const About = () => {
 
         </div>
         {/* Right Side */}
-        <div className=" md:ml-4 md:w-1/2 flex justify-center  md:justify-end">
+        <div className=" md:ml-4 md:w-1/2 flex justify-center  md:justify-end md:items-start">
           <Tilt
             className="w-35 h-35 sm:w-64 sm:h-64 md:w-[20rem] md:h-[20rem] border-4 border-purple-700 rounded-full"
             tiltMaxAngleX={20}
