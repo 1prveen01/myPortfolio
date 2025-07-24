@@ -12,15 +12,16 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_tpyo2nd",  
-        "template_u2iocjt",  
+        "service_tpyo2nd",  //service id
+        "template_u2iocjt",  //template id
         form.current,
-        "YJBQEQ1J_7Atkif1P"  
+        "YJBQEQ1J_7Atkif1P"  //public api key
       )
       .then(
         () => {
           setIsSent(true);
           form.current.reset(); // Reset form fields after sending
+          
           toast.success("Message sent successfully! ✅", {
             position: "top-right",
             autoClose: 3000,
