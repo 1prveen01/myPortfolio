@@ -41,6 +41,7 @@ import todoApp from './assets/projects/todoapp.png';
 import weatherApp from './assets/projects/weatherapp.png';
 import netflixApp from './assets/projects/netflix.png';
 import mbaChaiWalaApp from './assets/projects/mbaChaiWala.png';
+import mytube from './assets/projects/mytube.png';
 
 
 
@@ -221,6 +222,16 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS", "JavaScript", "React"],
       github: "https://github.com/1prveen01/randomPassGenerator",
       webapp: "https://random-pass-generator-phi.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "mytube",
+      description:
+        "MyTube is a YouTube-style video sharing platform built to strengthen my full-stack skills. I gained experience in backend APIs with authentication and media handling, frontend integration with React + Vite, and deploying on Replit (backend) and Vercel (frontend) with proper environment setup and CORS configuration.",
+      image: mytube,
+      tags: ["React JS", "HTML","TailWind CSS","express", "MongoDB", "Vercel", "Replit", "shadcn","Nodejs", "CSS", "JavaScript"],
+      github: "https://github.com/1prveen01/mytube",
+      webapp: "https://mytube-okvl.vercel.app",
     },
   
   ];  
