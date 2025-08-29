@@ -227,11 +227,11 @@ export const SkillsInfo = [
       id: 6,
       title: "mytube",
       description:
-        "MyTube is a YouTube-style video sharing platform built to strengthen my full-stack skills. I gained experience in backend APIs with authentication and media handling, frontend integration with React + Vite, and deploying on Replit (backend) and Vercel (frontend) with proper environment setup and CORS configuration.",
+        "MyTube is a video sharing platform built to strengthen my full-stack skills. I gained experience in backend APIs with authentication and media handling, frontend integration with React + Vite, and deploying on Render and Vercel with proper environment setup and CORS configuration.",
       image: mytube,
       tags: ["React JS", "HTML","TailWind CSS","express", "MongoDB", "Vercel", "Replit", "shadcn","Nodejs", "CSS", "JavaScript"],
       github: "https://github.com/1prveen01/mytube",
-      webapp: "https://mytube-okvl.vercel.app",
+      webapp: "https://mytube-4imgebc70-praveens-projects-be2a4576.vercel.app",
     },
   
   ];  
